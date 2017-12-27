@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def acceuil
+  def accueil
   end
 
   def entreprise
@@ -8,13 +8,15 @@ class PagesController < ApplicationController
   def technologie
   end
 
-  def intervention_sur_site
+
+  def intervention
   end
 
   def surveillance
   end
 
-  def pièces_de_rechange
+
+  def piece
   end
 
   def formation
