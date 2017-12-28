@@ -1,0 +1,30 @@
+.itmes-footer {
+  background: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  min-width: 100%;
+  padding: 0px 50px;
+  color: beige;
+  position: absolute;
+  bottom:0;
+}
+
+.itmes-footer-links {
+  display: flex;
+  align-items: center;
+  padding: 0px 470px;
+}
+
+.itmes-footer-links a {
+  color: beige;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0px 15px;
+}
+
+.itmes-footer-links a:hover {
+  opacity: 1;
+}
