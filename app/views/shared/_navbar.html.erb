@@ -1,28 +1,85 @@
 <div class="navbar_itmes">
   <ul>
     <li>
-      acceuil
+     <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Acceuil</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
     </li>
     <li>
-      entreprise
+      <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Entreprise</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
     </li>
     <li>
-      technologie
+     <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Technologie</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
     </li>
     <li>
-      intervention sur site
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Intervention sur site</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+      </div>
     </li>
     <li>
-      Surveillance
+   <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">surveillance</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+      </div>
     </li>
     <li>
-      Pièces de rechange
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">pièces de rechange</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
     </li>
     <li>
-      Formation
+        <div class="lien">
+        <div class="dropdown1">
+        <button onclick="myFunction()" class="dropbtn">formation</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
     </li>
     <li>
-      Contact
+     <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
     </li>
   </ul>
 </div>
@@ -30,3 +87,118 @@
 <p class="text-center">
   bonjour
 </p>
+
+<ul class="main-navigation">
+
+  <li><a href="#">Home</a></li>
+
+  <li><a href="#">Front End Design</a>
+
+    <ul>
+
+      <li><a href="#">HTML</a></li>
+
+      <li><a href="#">CSS</a>
+
+        <ul>
+
+          <li><a href="#">Resets</a></li>
+
+          <li><a href="#">Grids</a></li>
+
+          <li><a href="#">Frameworks</a></li>
+
+      </ul>
+
+      </li>
+
+      <li><a href="#">JavaScript</a>
+
+        <ul>
+
+          <li><a href="#">Ajax</a></li>
+
+       <li><a href="#">jQuery</a></li>
+
+      </ul>
+
+    </li>
+
+  </ul>
+
+</li>
+
+<li><a href="#">WordPress Development</a>
+
+    <ul>
+
+      <li><a href="#">Themes</a></li>
+
+      <li><a href="#">Plugins</a></li>
+
+      <li><a href="#">Custom Post Types</a>
+
+        <ul>
+
+          <li><a href="#">Portfolios</a></li>
+
+          <li><a href="#">Testimonials</a></li>
+
+        </ul>
+
+      </li>
+
+      <li><a href="#">Options</a></li>
+
+    </ul>
+
+  </li>
+
+  <li><a href="#">About Us</a></li>
+
+</ul>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown1").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
