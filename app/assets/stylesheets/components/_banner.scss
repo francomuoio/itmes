@@ -1,4 +1,4 @@
-.card {
+.card-itmes {
   height: 250px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   text-align: center;
@@ -13,19 +13,19 @@
 
 }
 
-.card-logo {
+.card-logo-itmes {
   position: absolute;
   left: 50px;
   top: 25px;
   height: 200px;
 }
 
-.card-description {
+.card-description-itmes {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.card-description h2 {
+.card-description-itmes h2 {
   font-size: 30px;
 }
