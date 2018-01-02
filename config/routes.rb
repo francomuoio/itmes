@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-
   get 'accueil', to: 'pages#accueil'
   get 'entreprise', to: 'pages#entreprise'
   get 'technologie', to: 'pages#technologie'

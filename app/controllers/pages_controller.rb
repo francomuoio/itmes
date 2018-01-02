@@ -8,11 +8,13 @@ class PagesController < ApplicationController
   def technologie
   end
 
+
   def intervention
   end
 
   def surveillance
   end
+
 
   def piece
   end
